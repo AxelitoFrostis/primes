@@ -26,7 +26,7 @@ print("Speed:   ", timer()-start)
 for x in range(len(primes)):
   primes[x] = str(primes[x])
 
-with open ("results/"+filename+".txt", "w+") as file:
+with open ("../results/"+filename+".txt", "w+") as file:
   seperator = ", "
   file.write(seperator.join(primes))
 
